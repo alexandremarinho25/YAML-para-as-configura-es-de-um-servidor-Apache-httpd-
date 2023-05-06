@@ -1,0 +1,8 @@
+server:
+  name: httpd
+  port: 80
+  root: /var/www/html
+  document_root: /var/www/html/myapp
+  log_path: /var/log/httpd
+  index_files:
+    - index.html
